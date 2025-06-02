@@ -676,14 +676,16 @@ button {
 
 .modal {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    /* top: 50%;
+    left: 50%; */
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     background: #fcfcfc;
     border-radius: 4px;
     width: 408px;
     min-height: 584px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    padding: 72px 72px 72px 72px;
 }
 
 .modal-form {}
@@ -722,7 +724,18 @@ button {
     fill: #ffffff;
 }
 
-.fedback-text {}
+.modal-box-text {}
+
+.fedback-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+
+    margin-bottom: 16px;
+}
 
 .modal-form-label {}
 
