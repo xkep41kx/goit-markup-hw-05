@@ -709,7 +709,11 @@ button {
 
 }
 
-.fedback-icon-exit:hover,
+.fedback-icon-exit:hover {
+    background-color: #404bbf;
+    border: none;
+}
+
 .fedback-icon-exit:focus {
     background-color: #404bbf;
     border: none;
@@ -720,7 +724,10 @@ button {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.fedback-icon:hover,
+.fedback-icon:hover {
+    fill: #ffffff;
+}
+
 .fedback-icon:focus {
     fill: #ffffff;
 }
