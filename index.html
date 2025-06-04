@@ -426,7 +426,7 @@
 
     <div class="backdrop is-open">
         <div class="modal-window">
-            <button class="modal-btn-exit">
+            <button class="modal-btn-exit" type="button">
                 <svg class="icon-exit" width="8" height="8">
                     <use href="./images/icons.svg#icon-exit"></use>
                 </svg>
@@ -462,25 +462,21 @@
                 </div>
                 <div class="modal-form-box label-textarea">
                     <label class="form-label" for="user-comment">Comment</label>
-                    <div class="box-textarea">
-                        <textarea class="form-textarea" id="user-comment" name="user-comment"
-                            placeholder="Text input"></textarea>
-                    </div>
+                    <textarea class="form-textarea" id="user-comment" name="user-comment"
+                        placeholder="Text input"></textarea>
                 </div>
                 <div class="modal-form-box label-checkbox">
-                    <input class="form-input-checkbox" type="checkbox" name="user-privacy" id="user-privacy"
-                        value="true">
+                    <input class="visually-hidden form-input-checkbox" type="checkbox" name="user-privacy"
+                        id="user-privacy" value="true">
                     <label class="form-label-checkbox" for="user-privacy">
                         <span class="span-accept">
                             <svg class="icon-accept" width="10" height="8">
                                 <use href="./images/icons.svg#icon-accept"></use>
                             </svg>
                         </span>I accept the terms and conditions of
-                        the <a class="privacy-policy" href="">Privacy Policy</a></label>
+                        the<a class="privacy-policy" href="">Privacy Policy</a></label>
                 </div>
-                <div class="form-box-btn">
-                    <button class="form-bnt-send">Send</button>
-                </div>
+                <button class="form-bnt-send">Send</button>
             </form>
 
         </div>
