@@ -880,6 +880,7 @@ input:checked+label>span .icon-accept {
     position: absolute;
     min-width: 169px;
     height: 56px;
+    bottom: 24px;
     left: 119px;
 
 
