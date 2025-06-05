@@ -875,17 +875,13 @@ input:checked+label>span .icon-accept {
     text-decoration: underline;
 }
 
-.form-box-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .form-bnt-send {
     display: block;
+    position: absolute;
     min-width: 169px;
     height: 56px;
-    margin-left: 95px;
+    left: 119px;
+
 
     font-family: "Roboto", sans-serif;
     font-weight: 500;
